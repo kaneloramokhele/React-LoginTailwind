@@ -49,10 +49,14 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
+  scale: .98;
   transition: border-color 0.25s;
 }
 button:hover {
   border-color: #646cff;
+  scale: 1.01;
+  transition: ease-in-out;
+  background: green;
 }
 button:focus,
 button:focus-visible {
