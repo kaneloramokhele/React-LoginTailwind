@@ -5,9 +5,9 @@ import GoogleLogo from '../assets/svgs/google.svg';
 
 export default function Form() {
   return (
-    <div className="bg-blue-500 text-white px-10 py-20 rounded-3xl border-2 border-gray-200">
-      <h1 className="text-5xl font-semibold">Welcome Back</h1>
-      <p className="font-medium text-lg text-gray-500 mt-4">Please enter your email and password to login</p>
+    <div className="bg-slate-500 text-white px-10 py-20 rounded-3xl border-2 border-gray-200">
+      <h1 className="text-5xl text-center font-semibold">Welcome Back</h1>
+      <p className="font-medium text-lg text-gray-300 mt-4">Please enter your email and password to login</p>
 
       <div className="mt-8">
         <div>
@@ -26,9 +26,9 @@ export default function Form() {
         </div>
 
         <div className="mt-8 flex justify-between items-center">
-          <div>
+          <div className="text-blue-300 hover:underline hover:text-blue-900">
             <input type="checkbox" name="remember_me" id="remember_me" 
-                  className=" cursor-pointer"
+                  className="cursor-pointer"
             />
             <label htmlFor="remember_me" className="ml-2 font-medium text-base cursor-pointer">Remember me for 30 days</label>
           </div>
