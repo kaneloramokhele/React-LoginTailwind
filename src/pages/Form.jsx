@@ -42,13 +42,33 @@ export default function Form() {
           </Link>
         </div>
 
-        <div className="mt-8 flex flex-col gap-y-4">
+        {/* <div className="mt-8 flex flex-col gap-y-4">
           <button className="bg-sky-900 text-white text-lg font-bold uppercase">Signin</button>
           <button className="flex items-center justify-center gap-2 space-x-2 px-4 py-2 bg-slate-200 text-black font-medium rounded-lg hover:bg-blue-700 transition">
             <img src={GoogleLogo} alt="Google Logo" className="w-5 h-5" />
             <span>Signin with Google</span>
           </button>
-        </div>
+        </div> */}
+
+        <div className="mt-4 flex items-center justify-center">
+            <button
+              type="button"
+              className="flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition duration-150"
+            >
+              <img src={GoogleLogo} alt="Google logo" className="h-5 w-5" />
+              Sign In with Google
+            </button>
+          </div>
+
+          <div className="mt-4 text-center">
+            <Link
+              to="/register"
+              className="text-sm text-blue-500 hover:underline"
+            >
+              Create New Account
+            </Link>
+          </div>
+
       </div>
     </div>
   );
