@@ -15,6 +15,8 @@ export default function Form() {
           <input type="email" name="email" id="email"
                 className="w-full border-2 border-slate-900 rounded-xl p-4 mt-1 bg-transparent"
                 placeholder="Enter your email"
+                autoComplete="on"
+                required
           />
         </div>
         <div>
@@ -22,6 +24,7 @@ export default function Form() {
           <input type="password" name="password" id="password"
                 className="w-full border-2 border-slate-950 rounded-xl p-4 mt-1 bg-transparent"
                 placeholder="Enter your password"
+                required
           />
         </div>
 
