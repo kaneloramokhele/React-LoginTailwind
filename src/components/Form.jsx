@@ -1,4 +1,4 @@
-// frontend/src/components/Form.js
+// frontend/src/components/Form.jsx
 
 import { Link } from "react-router-dom";
 import GoogleLogo from '../assets/svgs/google.svg';
